@@ -1,14 +1,12 @@
 <template>
-  <h1>{{ name }}</h1>
+  <div class="">
+    {{ text }}
+  </div>
 </template>
-<script lang="ts">
-import { defineComponent } from "vue";
-export default defineComponent({
-  setup() {
-    const name = "123123123";
-    return {
-      name,
-    };
-  },
-});
+
+<script lang="ts" setup>
+import { ref } from 'vue';
+const text = ref<string>('张三');
 </script>
+
+<style scoped></style>
