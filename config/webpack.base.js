@@ -2,8 +2,7 @@ const htmlWebpackPlugin = require("html-webpack-plugin");
 const { VueLoaderPlugin } = require("vue-loader");
 const path = require("path");
 module.exports = {
-  entry: path.join(__dirname, "src/index.ts"),
-  mode: "development",
+  entry: "./src/index.ts",
   module: {
     rules: [
       {

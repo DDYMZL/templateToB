@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "build": "cross-env NODE_ENV=production webpack --config ./config/webpack.prod.js",
     "serve": "cross-env NODE_ENV=development webpack serve --config ./config/webpack.dev.js"
   },
   "repository": {
