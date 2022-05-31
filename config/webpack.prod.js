@@ -1,11 +1,11 @@
 const { merge } = require('webpack-merge');
 const baseConfig = require('./webpack.base.js');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin');
 
 module.exports = merge(baseConfig, {
   mode: 'production',
   output: {
     clean: true,
   },
-  plugins: [new MiniCssExtractPlugin()],
+  plugins: [new FriendlyErrorsWebpackPlugin()],
 });

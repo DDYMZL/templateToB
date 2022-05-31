@@ -1,6 +1,6 @@
 <template>
-  <div class="">
-    {{ text }}
+  <div class="text">
+    <span>{{ text }}</span>
   </div>
 </template>
 
@@ -9,4 +9,10 @@ import { ref } from 'vue';
 const text = ref<string>('张三');
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+.text {
+  span {
+    color: blue;
+  }
+}
+</style>

@@ -31,10 +31,6 @@ module.exports = {
         use: 'vue-loader',
       },
       {
-        test: /\.(sa|sc|c)ss$/,
-        use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
-      },
-      {
         test: /\.(png|svg|jpe?g|gif)$/,
         type: 'asset',
         generator: {
@@ -65,5 +61,6 @@ module.exports = {
       template: './index.html',
     }),
     new VueLoaderPlugin(),
+    new MiniCssExtractPlugin(),
   ],
 };
