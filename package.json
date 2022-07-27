@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DDYMZL/standard-form.git"
+    "url": "git+https://github.com/DDYMZL/templateToB.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DDYMZL/standard-form/issues"
+    "url": "https://github.com/DDYMZL/templateToB/issues"
   },
-  "homepage": "https://github.com/DDYMZL/standard-form#readme",
+  "homepage": "https://github.com/DDYMZL/templateToB#readme",
   "devDependencies": {
     "@babel/core": "^7.18.2",
     "@babel/preset-env": "^7.18.2",
